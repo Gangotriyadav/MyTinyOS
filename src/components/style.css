@@ -1,0 +1,139 @@
+body {
+  background-image: url('https://i.pinimg.com/736x/a2/ad/a9/a2ada9d3ad5cf91ada00e71c5277de4a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin-top: -80px;
+}
+
+
+.loginContainer,
+.signUpContainer {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  background-color: skyblue;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+input {
+  height: 7vh;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 15px;
+  outline: none;
+  margin: 10px;
+}
+
+input:focus {
+  border-color: skyblue;
+  box-shadow: 0 0 5px skyblue;
+}
+
+button {
+  background-color: skyblue;
+  border: none;
+  height: 7vh;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: deepskyblue;
+}
+
+.img-icon {
+  color: tomato;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.lib-icon {
+  color: aqua;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.dic-icon {
+  color: palevioletred;
+  font-size: 30px;
+}
+
+.qrCode-icon {
+  color: hsl(240, 100%, 50%);
+}
+
+.iconContainer {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.iconRow {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.iconBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.iconBox span {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+
+
+.inpBox {
+  background-color: white;
+  width: 100vw;       
+  max-width: 100vw;  
+  height: 25px;
+  border: 1px solid pink;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  margin: 0;           
+  box-sizing: border-box; 
+}
+
+.inpBox:focus {
+  border-color: deeppink;
+}
+
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin-top: 10px;
+}
