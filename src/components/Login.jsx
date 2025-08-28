@@ -17,7 +17,7 @@ function Login() {
     const payload = { email, password };
 
     axios
-      .post("http://localhost:5005/login", payload)
+      .post("https://os-core.onrender.com/login", payload)
       .then((res) => {
         localStorage.setItem("token", res.data.token);
         alert("Login Success");

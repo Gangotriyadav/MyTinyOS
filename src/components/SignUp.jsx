@@ -18,7 +18,7 @@ function SignUp() {
     const payload = { email, password };
 
     axios
-      .post("http://localhost:5005/api/post", payload)
+      .post("https://os-core.onrender.com/api/post", payload)
       .then((res) => {
         alert("Signup Success");
         console.log("Signup Success", res.data);
